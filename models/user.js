@@ -7,7 +7,8 @@ module.exports = function(sequelize, DataTypes) {
     googleId: {
       type: DataTypes.STRING,
       unique: true,
-      allowNull: false
+      allowNull: false,
+      primaryKey: true
     },
     displayName: {
       type: DataTypes.STRING,
