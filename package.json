@@ -1,5 +1,5 @@
 {
-  "name": "1-Passport-Example",
+  "name": "get-grub",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -15,10 +15,15 @@
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "2.4.3",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.3.1",
     "express": "^4.17.0",
+    "express-handlebars": "^4.0.4",
     "express-session": "^1.16.1",
+    "joi": "^14.3.1",
     "mysql2": "^1.6.5",
     "passport": "^0.4.0",
+    "passport-google-oauth20": "^2.0.0",
     "passport-local": "^1.0.0",
     "sequelize": "^5.8.6"
   },
@@ -26,10 +31,10 @@
     "chai": "^4.1.2",
     "chai-http": "^4.0.0",
     "cross-env": "^5.2.0",
-    "eslint": "^4.19.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.2",
     "mocha": "^5.2.0",
+    "nodemon": "^2.0.4",
     "prettier": "^1.13.7"
   }
 }
