@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm run lint",
     "start": "node server.js",
-    "lint": "eslint --quiet .",
+    "lint": "eslint **/*.js --quiet .",
     "fix": "eslint --fix .",
     "watch": "nodemon server.js"
   },
@@ -16,6 +16,7 @@
   "dependencies": {
     "bcryptjs": "2.4.3",
     "dotenv": "^8.2.0",
+    "eslint": "^7.3.1",
     "express": "^4.17.0",
     "express-handlebars": "^4.0.4",
     "express-session": "^1.16.1",
@@ -30,7 +31,6 @@
     "chai": "^4.1.2",
     "chai-http": "^4.0.0",
     "cross-env": "^5.2.0",
-    "eslint": "^4.19.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.2",
     "mocha": "^5.2.0",
