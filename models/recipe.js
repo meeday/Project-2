@@ -3,9 +3,13 @@
 module.exports = function(sequelize, DataTypes) {
   var Recipe = sequelize.define("Recipe", {
 
-    googleId: {
+    id: {
       type: DataTypes.STRING,
       unique: true,
+      primaryKey: true
+    },
+    googleId: {
+      type: DataTypes.STRING,
       allowNull: false
     },
     recipeId: {
