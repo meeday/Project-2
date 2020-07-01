@@ -1,8 +1,8 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "passport_demo",
+    "username": "project-user",
+    "password": "get_grub_123",
+    "database": "get_grub",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
